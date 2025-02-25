@@ -39,4 +39,60 @@ public class Booking {
     @ManyToOne
     @JoinColumn(name = "employee_id", nullable = false)
     private Employee employee;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(final Long id) {
+        this.id = id;
+    }
+
+    public String getBookingNumber() {
+        return bookingNumber;
+    }
+
+    public void setBookingNumber(final String bookingNumber) {
+        this.bookingNumber = bookingNumber;
+    }
+
+    public Date getStartDate() {
+        return startDate;
+    }
+
+    public void setStartDate(final Date startDate) {
+        this.startDate = startDate;
+    }
+
+    public Date getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(final Date endDate) {
+        this.endDate = endDate;
+    }
+
+    public String getBookingStatus() {
+        return bookingStatus;
+    }
+
+    public void setBookingStatus(final String bookingStatus) {
+        this.bookingStatus = bookingStatus;
+    }
+
+    public Double getCost() {
+        return cost;
+    }
+
+    public void setCost(final Double cost) {
+        this.cost = cost;
+    }
+
+    public Employee getEmployee() {
+        return employee;
+    }
+
+    public void setEmployee(final Employee employee) {
+        this.employee = employee;
+    }
 }

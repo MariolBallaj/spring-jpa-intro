@@ -34,4 +34,36 @@ public class Role {
             inverseJoinColumns = @JoinColumn(name = "employee_id")
     )
     private List<Employee> employees;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(final Long id) {
+        this.id = id;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(final String role) {
+        this.role = role;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(final String description) {
+        this.description = description;
+    }
+
+    public List<Employee> getEmployees() {
+        return employees;
+    }
+
+    public void setEmployees(final List<Employee> employees) {
+        this.employees = employees;
+    }
 }
