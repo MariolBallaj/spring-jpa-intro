@@ -79,23 +79,4 @@ public class EmployeeDetails {
     public void setEmploymentStatus(final EmploymentStatus employmentStatus) {
         this.employmentStatus = employmentStatus;
     }
-
-    public Employee getEmployee() {
-        return employee;
-    }
-
-    public void setEmployee(final Employee employee) {
-        this.employee = employee;
-    }
-
-    @Override
-    public String toString() {
-        return "EmployeeDetails{" +
-                "id=" + id +
-                ", email='" + email + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", employmentDate=" + employmentDate +
-                ", employmentStatus=" + employmentStatus +
-                '}';
-    }
 }

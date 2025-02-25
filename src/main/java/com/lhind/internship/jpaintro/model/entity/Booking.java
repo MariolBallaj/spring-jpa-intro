@@ -87,12 +87,4 @@ public class Booking {
     public void setCost(final Double cost) {
         this.cost = cost;
     }
-
-    public Employee getEmployee() {
-        return employee;
-    }
-
-    public void setEmployee(final Employee employee) {
-        this.employee = employee;
-    }
 }

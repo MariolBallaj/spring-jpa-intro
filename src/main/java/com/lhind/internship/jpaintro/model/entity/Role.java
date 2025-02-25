@@ -58,12 +58,4 @@ public class Role {
     public void setDescription(final String description) {
         this.description = description;
     }
-
-    public List<Employee> getEmployees() {
-        return employees;
-    }
-
-    public void setEmployees(final List<Employee> employees) {
-        this.employees = employees;
-    }
 }

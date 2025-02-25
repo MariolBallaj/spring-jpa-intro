@@ -101,14 +101,19 @@ public class Employee {
         this.employeeDetails = employeeDetails;
     }
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "id=" + id +
-                ", username='" + username + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", middleName='" + middleName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                '}';
+    public List<Booking> getBookings() {
+        return bookings;
+    }
+
+    public void setBookings(final List<Booking> bookings) {
+        this.bookings = bookings;
+    }
+
+    public List<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(final List<Role> roles) {
+        this.roles = roles;
     }
 }
